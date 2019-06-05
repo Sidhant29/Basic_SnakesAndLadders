@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sidhant.sl.MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="Enter number of players(2-4)"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_gravity="center"
+            android:id="@+id/etPlayerCount"
+            android:layout_width="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/colorAccent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btStrtGame"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_width="wrap_content"
+            android:text="Start game"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:textColor="@color/colorPrimary"
+        android:text="Rules:
+1)First to reach Position 100 wins,
+2)step on a ladder and you go up,
+ 3)get bitten by a snake and you fall"
+        android:layout_gravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</FrameLayout>

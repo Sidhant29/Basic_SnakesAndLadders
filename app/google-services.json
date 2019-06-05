@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "676060488029",
+    "firebase_url": "https://datavault-176d0.firebaseio.com",
+    "project_id": "datavault-176d0",
+    "storage_bucket": "datavault-176d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:676060488029:android:ba19a1cb3268d1c4",
+        "android_client_info": {
+          "package_name": "com.example.sidhant.datavault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "676060488029-b947hh4tvenhig5otcguq33d0jnhdolo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sidhant.datavault",
+            "certificate_hash": "9323afe0d417504a8b79d773aa601565fd3faaee"
+          }
+        },
+        {
+          "client_id": "676060488029-jkprg5ua57u6rgb4s8vpgcm6vqtejp37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGK4LbmjRXZyms_mDzYcV4NCJErc4biqk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "676060488029-jkprg5ua57u6rgb4s8vpgcm6vqtejp37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sidhant.sl.GameScreenMain">
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cvDiplay"
+        android:layout_margin="4dp"
+        android:elevation="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tvPlayer1"
+                android:layout_margin="4dp"
+                android:text="Player 1 position: --"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvPlayer2"
+                android:layout_margin="4dp"
+                android:text="Player 2 position: --"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvPlayer3"
+                android:layout_margin="4dp"
+                android:text="Player 3 position: --"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+            <TextView
+                android:id="@+id/tvPlayer4"
+                android:layout_margin="4dp"
+                android:text="Player 4 position: --"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:textColor="@color/colorAccent"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:id="@+id/tvRoll"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:textSize="25sp"
+            android:text=""
+            android:layout_height="30dp" />
+
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:id="@+id/tvDisplay"
+                android:textSize="20sp"
+                android:layout_margin="20dp"
+                android:text="Player Roll Dice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+
+
+
+
+        <ImageView
+            android:src="@drawable/snakesandladders"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+    </LinearLayout>
+</LinearLayout>

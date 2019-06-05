@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/addNote"
+        android:checkable="false"
+        android:title="Note"></item>
+    <item android:id="@+id/addTodo"
+        android:title="Todo"></item>
+
+    <item android:id="@+id/addImage"
+        android:title="Image"></item>
+</menu>
